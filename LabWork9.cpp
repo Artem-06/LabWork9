@@ -15,8 +15,13 @@ int main()
 	cin >> y;
 	cout << "Input x for B: ";
 	cin >> x_2;
-	cout << "Input alpha for B: ";
+	cout << "Input alpha in deg for B: ";
 	cin >> alpha;
 
+	cout << "A = " << func1(x_1, y) << endl;
+	cout << "B = " << func2(x_2, alpha) << endl;
+
 	cout << "Result = " << func3(func1(x_1, y), func2(x_2, alpha));
+
+	return 0;
 }
