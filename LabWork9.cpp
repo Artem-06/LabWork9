@@ -2,7 +2,7 @@
 #include <iomanip>
 #include "Windows.h"
 #include "func.h"
-
+//Доданий коментар
 using namespace std;
 
 int main()
