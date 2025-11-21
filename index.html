@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Гра 21 — картки</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<section class="player">
+			<h2 id="user">Гість</h2>
+			<div class="card" id="userCard">
+				<div class="card__inner">
+					<div class="card__face card__face--front">
+						<img src="images/back.png" alt="back" class="card-img">
+					</div>
+					<div class="card__face card__face--back">
+						<img id="userCardImage" src="" alt="user card" class="card-img">
+					</div>
+				</div>
+			</div>
+			<div class="total">Сума: <span id="userTotal">0</span></div>
+		</section>
+		<section class="control">
+			<button id="=generate" class="action-btn">Роздати карту</button>
+			<div class="round">Раунд: <span id="round">0</span> / 3</div>
+		</section>
+		<section class="player">
+			<h2>Комп'ютер</h2>
+			<div class="card" id="compCard">
+				<div class="card__inner">
+					<div class="card__face card__face--front">
+						<img src="images/back.png" alt="back" class="card-img">
+					</div>
+					<div class="card__face card__face--back">
+						<img id="compCardImage" src="" alt="comp card" class="card-img">
+					</div>
+				</div>
+			</div>
+			<div class="total">Сума: <span id="compTotal">0</span></div>
+		</section>
+	</body>
+</html>
